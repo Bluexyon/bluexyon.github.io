@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Impact;
+    src:"./fonts/impact.ttf";
+  }
+
+body{
+    background-color: black;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    justify-self: auto;
+    color: white;
+}
+
+#idGaming{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    font-family: Impact;
+}
+
